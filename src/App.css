@@ -30,3 +30,75 @@
     transform: rotate(360deg);
   }
 }
+
+.PomodoroBackground {
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(111, 187, 219, 1) 0%,
+    rgba(17, 86, 120, 1) 100%
+  );
+  height: 100vh;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.RestBackground {
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(111, 162, 219, 1) 0%,
+    rgba(17, 48, 120, 1) 100%
+  );
+  height: 100vh;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.RestBackground2 {
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(111, 129, 219, 1) 0%,
+    rgba(17, 59, 120, 1) 100%
+  );
+  height: 100vh;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* .gradientTransition-appear {
+  opacity: 0.01;
+}
+
+.gradientTransition-appear.gradientTransition-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+} */
+
+.gradientTransition-enter {
+  opacity: 0.01;
+}
+
+.gradientTransition-enter.gradientTransition-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.gradientTransition-leave {
+  opacity: 1;
+}
+
+.gradientTransition-leave.gradientTransition-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
